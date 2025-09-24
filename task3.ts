@@ -1,6 +1,8 @@
-import express from "express";
+// import * as express from "express";
 
+const express = require("express");
 const app = express();
+
 const port = process.env.PORT || 3000;
 
 // Replace this with your email, transformed
