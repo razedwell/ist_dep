@@ -1,9 +1,11 @@
 import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
 // const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 // Replace this with your email, transformed
-const endpoint = "/kadirov_nurkhan_gmail_com";
+const endpoint = "/" + (process.env.MY_EMAIL || "user@example.com");
 // helper gcd
 function gcd(a, b) {
     while (b !== 0) {
