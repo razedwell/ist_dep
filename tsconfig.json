@@ -7,12 +7,9 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    // "module": "nodenext",
     "module": "nodenext",
     "moduleResolution": "NodeNext",
     "target": "ES2020",
-    "strict": true,
-    "skipLibCheck": true,
     "outDir": "dist",
     // "target": "esnext",
     // "types": [],
@@ -39,12 +36,12 @@
     // "noPropertyAccessFromIndexSignature": true,
 
     // Recommended Options
-    // "strict": true,
+    "strict": true,
     "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force"
-    // "skipLibCheck": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
   }
 }
